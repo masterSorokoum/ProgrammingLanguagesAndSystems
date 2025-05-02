@@ -1,6 +1,7 @@
 /*
    Упражнение 2.2.
    Вывод таблицы истинности для логических операций.
+   Sorokoumov
 */
 class LogicalOpTable {
     public static void main(String[] args) {
