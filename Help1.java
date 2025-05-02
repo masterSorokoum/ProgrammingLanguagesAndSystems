@@ -1,6 +1,7 @@
 /*
    Упражнение 3.1.
    Простая справочная система 
+   Sorokoumov
 */
 class Help1 {
     public static void main(String[] args)
