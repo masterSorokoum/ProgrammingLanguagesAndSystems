@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class GalToLit {
+   GalToLit() {
+   }
+
+   public static void main(String[] var0) {
+      double var1 = 10.0;
+      double var3 = var1 * 3.7854;
+      System.out.println("" + var1 + " галлонов соответствует " + var3 + " литрам.");
+   }
+}
