@@ -1,6 +1,6 @@
 /* Зачетное задание "Пример использования Иерархии классов в Java"
     В данной программе мы можем записать Имена автомобилей и 
-    с помощью классов получить ранее введенные характеристики
+    с помощью классов получить ранее введееннные характеристики
     Sorokoumov
  */
 public class Program{
@@ -13,6 +13,7 @@ public class Program{
         SecondCar.display();
         Car FirdCar = new Transmission("LadaNiva","Crossover", "Mechanical",150);   // с помощью класса Tramsmission мы получим имя, тип, тип трансмиссии и макс скорость
         FirdCar.display();
+        
     }
 }
 // Данный класс получает имя автомобиля а после по средствам public getName() позволяет возвращать имя в другие классы 
@@ -50,12 +51,18 @@ class Transmission extends Car{
     private String trans;
     private float speed;
     private String tip;
+    
 
     public Transmission(String name, String tip, String trans, float speed) {
         super(name);
         this.trans=trans;
         this.speed=speed;
         this.tip=tip;
+            if (name == "LadaNiva") {
+                System.out.printf("Please do not accelerate in this car. ");
+            }
+        
+
     }
        
     public void display(){
