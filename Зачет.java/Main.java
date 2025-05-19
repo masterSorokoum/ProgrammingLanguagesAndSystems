@@ -73,7 +73,7 @@ class Cow extends TwoCopt {
     // вычисление скорости по высоте хвоста
     @Override
     void calculate() {
-        double speed = tailHeight * 2.5; // пример формулы
+        double speed = tailHeight * 2.5; // вычисление
         System.out.println("Корова: скорость передвижения = " + speed);
     }
 }
